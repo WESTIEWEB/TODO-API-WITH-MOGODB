@@ -73,7 +73,7 @@ export const getAllTodo = async(req:Request, res:Response) => {
 
         if(todo) {
             return res.status(200).json({
-                msg:"successfully updated Task",
+                msg:"successfully gotten all Task",
                 todo,
             })
         }
